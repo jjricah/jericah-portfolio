@@ -345,10 +345,10 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-@media (min-width: 440px) {
+@media (min-width: 500px) {
   .sidebar{
-    max-height: 50px;
-    margin-bottom: 30px;;
+    max-height: 110px;
+    margin-bottom: 30px;
   }
 
   .sidebar.active{
