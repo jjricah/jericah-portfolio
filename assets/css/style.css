@@ -381,7 +381,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .sidebar .social-link:hover {
@@ -454,7 +454,7 @@ main {
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8px;
+  gap: 16px;
 }
 
 .contact-item {
@@ -490,7 +490,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  padding-bottom: -10px;
+  padding-bottom: 4px;
   padding-left: 7px;
 }
 
@@ -1624,7 +1624,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar-info {
-    gap: -25px;
+    gap: 25px;
   }
 
   .avatar-box {
