@@ -345,9 +345,9 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 440px) {
   .sidebar{
-    max-height: 110px;
+    max-height: 140px;
     margin-bottom: 30px;;
   }
 
