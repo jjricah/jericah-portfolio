@@ -345,6 +345,17 @@ main {
   box-shadow: var(--shadow-2);
 }
 
+@media (min-width: 360px) {
+  .sidebar{
+    max-height: 110px;
+    margin-bottom: 30px;;
+  }
+
+  .sidebar.active{
+    max-height: 584px;
+  }
+}
+
 
 /* Content styles */
 .sidebar-info_more {
