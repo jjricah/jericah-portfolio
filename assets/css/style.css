@@ -381,7 +381,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 100px;
 }
 
 .sidebar .social-link:hover {
