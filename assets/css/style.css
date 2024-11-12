@@ -381,7 +381,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .sidebar .social-link:hover {
@@ -1624,7 +1624,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar-info {
-    gap: 5px;
+    gap: 25px;
   }
 
   .avatar-box {
