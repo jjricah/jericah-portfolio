@@ -345,7 +345,7 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-@media (min-width: 360px) {
+@media (min-width: 376px) {
   .sidebar{
     max-height: 110px;
     margin-bottom: 30px;;
@@ -1113,6 +1113,21 @@ main {
   margin-bottom: 15px;
 }
 
+@media (min-width: 376px) {
+  .project-img,
+  .blog-banner-box {
+    height: 525px;
+  }
+  .sidebar {
+    max-height: 110px;
+    margin-bottom: 30px;
+  }
+
+  .sidebar.active {
+    max-height: 584px;
+  }
+}
+
 .project-img::before {
   content: "";
   position: absolute;
@@ -1609,7 +1624,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar-info {
-    gap: 25px;
+    gap: 5px;
   }
 
   .avatar-box {
