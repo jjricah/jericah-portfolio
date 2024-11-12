@@ -4,7 +4,7 @@
 function checkFullScreen() {
   const sidebar = document.querySelector(".sidebar");
   const fullScreenWidth = window.innerWidth;
-  const isWideScreen = fullScreenWidth >= 1200;
+  const isWideScreen = fullScreenWidth >= 1920;
 
   // Automatically close the sidebar on small screens by toggling the 'active' class
   if (!isWideScreen && sidebar.classList.contains("active")) {
@@ -227,13 +227,7 @@ document.querySelectorAll("[data-page]").forEach((page) => {
   page.classList.add("fadeIn");
 });
 
-// Adjust layout on resize to account for bookmark bar
-window.addEventListener("resize", adjustLayout);
 
-function adjustLayout() {
-  const viewportHeight = window.innerHeight;
-  document.documentElement.style.setProperty("--viewport-height", `${viewportHeight}px`);
-}
 
 
 
