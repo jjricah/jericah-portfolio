@@ -4,7 +4,7 @@
 function checkFullScreen() {
   const sidebar = document.querySelector(".sidebar");
   const fullScreenWidth = window.innerWidth;
-  const isWideScreen = fullScreenWidth >= 1600;
+  const isWideScreen = fullScreenWidth >= 1400;
 
   // Automatically close the sidebar on small screens by toggling the 'active' class
   if (!isWideScreen && sidebar.classList.contains("active")) {
