@@ -345,7 +345,7 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 360px) {
   .sidebar{
     max-height: 110px;
     margin-bottom: 30px;;
@@ -381,7 +381,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .sidebar .social-link:hover {
@@ -1113,7 +1113,7 @@ main {
   margin-bottom: 15px;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 360px) {
   .project-img,
   .blog-banner-box {
     height: 525px;
@@ -1624,7 +1624,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar-info {
-    gap: 5px;
+    gap: 30px;
   }
 
   .avatar-box {
